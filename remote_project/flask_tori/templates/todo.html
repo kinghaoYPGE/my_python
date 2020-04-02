@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Backbone.js Todos</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/todos.css')}}">
+</head>
+
+<body>
+<div id="todoapp">
+    <header>
+        <h1>Tori</h1>
+        <input id="new-todo" type="text" placeholder="What needs to be done?">
+    </header>
+
+    <section id="main">
+        <input id="toggle-all" type="checkbox">
+        <label for="toggle-all">Mark all as complete</label>
+        <ul id="todo-list"></ul>
+    </section>
+
+</div>
+
+<div id="instructions">
+    Double-click to edit a todo.
+</div>
+
+
+<script src="{{url_for('static', filename='assets/vendor/json2.js')}}"></script>
+<script src="{{url_for('static', filename='assets/vendor/jquery.js')}}"></script>
+<script src="{{url_for('static', filename='assets/vendor/underscore.js')}}"></script>
+<script src="{{url_for('static', filename='assets/vendor/backbone-min.js')}}"></script>
+<script src="{{url_for('static', filename='todos.js')}}"></script>
+
+<script type="text/template" id="item-template">
+    <div class="view">
+        <input class="toggle" type="checkbox" <%= done ? 'checked="checked"' : '' %> />
+        <label><%- title %></label>
+        <a class="destroy"></a>
+    </div>
+    <input class="edit" type="text" value="<%- title %>"/>
+</script>
+
+<footer>
+    <script type="text/template" id="stats-template">
+        <% if (done) { %>
+        <a id="clear-completed">Clear <%= done %> completed <%= done == 1 ? 'item' : 'items' %></a>
+        <% } %>
+        <div class="todo-count"><b><%= remaining %></b> <%= remaining == 1 ? 'item' : 'items' %> left</div>
+    </script>
+</footer>
+</body>
+</html>

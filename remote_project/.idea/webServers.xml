@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ea15a654-de42-48ad-ab5b-e5bb93e63463" name="shiyanlou" url="http://121.40.29.93">
+        <fileTransfer host="121.40.29.93" port="41739" rootFolder="/home/shiyanlou" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="41739" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

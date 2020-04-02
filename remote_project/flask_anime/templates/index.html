@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>anime recommend demo</title>
+    <style type="text/css">
+        #body {
+            text-align: center;
+        }
+
+        #content {
+            margin-left: 25%;
+        }
+    </style>
+
+</head>
+<body>
+<div id="body">
+    <br/><br/><br/><br/><br/>
+    <br/><br/><br/><br/><br/>
+    <form name="input" action="{{url_for('search')}}" method="get">
+        <br/><br/>
+        User Number:
+        <input type="text" name="user"/>
+        <input type="submit" value="Search"/>
+    </form>
+</div>
+<br>
+{% for k, v in all_data.items() %}
+<table>
+    <tr><h2><strong>Table: {{k}} </strong></h2></tr>
+    <tr>{{v}}</tr>
+</table>
+{% endfor %}
+</body>
+</html>

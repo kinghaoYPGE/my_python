@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="shiyanlou" createEmptyFolders="true" exclude=".svn;.cvs;.idea;.DS_Store;.git;.hg;*.hprof;*.pyc;*.vscode" autoUploadExternalChanges="true" showDifferentInSync="false">
+    <serverData>
+      <paths name="shiyanlou">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/Code" local="$PROJECT_DIR$" web="/shiyanlou" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/.idea" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

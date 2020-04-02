@@ -1,0 +1,15 @@
+2018-08-11T14:26:17.817092486 0.077257s notice: Recursively removing directory /home/shiyanlou/Code/flask_tori/rethinkdb_data/tmp
+2018-08-11T14:26:18.388280393 0.648443s notice: Initializing directory /home/shiyanlou/Code/flask_tori/rethinkdb_data
+2018-08-11T14:26:18.388615698 0.648778s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/shiyanlou/Code/flask_tori/rethinkdb_data' did not already exist or is empty.)
+2018-08-11T14:26:18.388695464 0.648858s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-08-11T14:26:18.413106387 0.673270s notice: Running on Linux 3.13.0-125-generic x86_64
+2018-08-11T14:26:18.413249699 0.673412s notice: Loading data from directory /home/shiyanlou/Code/flask_tori/rethinkdb_data
+2018-08-11T14:26:19.003942418 1.264105s info: Automatically using cache size of 2032 MB
+2018-08-11T14:26:19.008418429 1.268581s notice: Listening for intracluster connections on port 29015
+2018-08-11T14:26:19.018249379 1.278412s notice: Listening for client driver connections on port 28015
+2018-08-11T14:26:19.018393920 1.278556s notice: Listening for administrative HTTP connections on port 8080
+2018-08-11T14:26:19.018398327 1.278560s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2018-08-11T14:26:19.018404093 1.278566s notice: Listening on driver addresses: 127.0.0.1, ::1
+2018-08-11T14:26:19.018406668 1.278568s notice: Listening on http addresses: 127.0.0.1, ::1
+2018-08-11T14:26:19.018411137 1.278573s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-08-11T14:26:19.018415632 1.278577s notice: Server ready, "ce966c8d3d24_dkn" d17fc5fc-fb2c-4df1-adac-519ec1e3d4d0
