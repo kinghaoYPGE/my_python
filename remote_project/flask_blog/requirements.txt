@@ -3,7 +3,7 @@ Jinja2==2.10
 Markdown==2.6.11
 MarkupSafe==1.0
 Pygments==2.2.0
-Werkzeug==0.14.1
+Werkzeug==0.15.3
 beautifulsoup4==4.6.0
 bs4==0.0.1
 click==6.7
