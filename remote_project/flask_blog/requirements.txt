@@ -2,7 +2,7 @@ Flask==0.12.2
 Jinja2==2.10
 Markdown==2.6.11
 MarkupSafe==1.0
-Pygments==2.2.0
+Pygments==2.7.4
 Werkzeug==0.14.1
 beautifulsoup4==4.6.0
 bs4==0.0.1
